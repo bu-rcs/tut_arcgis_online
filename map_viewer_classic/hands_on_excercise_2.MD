@@ -51,7 +51,7 @@
 
 1. Click "Next"
 
-1. ArcGIS ONline will assume the CSV file has spatial data, but it doesn't.  So we need to tell ArcGIS Online to import it as a table. Click on the drop down menu and select "None".
+1. ArcGIS Online will assume the CSV file has spatial data, but it doesn't.  So we need to tell ArcGIS Online to import it as a table. Click on the drop down menu and select "None".
     <img src="snippets/3.3_select_none.png" width="800">
 
 1. Your window should look like this:  
