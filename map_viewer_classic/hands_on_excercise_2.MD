@@ -1,4 +1,4 @@
-# Map Viewer Classic - Excercise 1
+# Map Viewer Classic - Excercise 2
 ### Author: Dennis Milechin, Research Computing Services, Boston University
 ### Note: This document is provided as-is without any warranty
 
