@@ -9,6 +9,8 @@
   * [Upload Shapefile to ArcGIS Online](#upload-shapefile-to-arcgis-online)
   * [Upload CSV File to ArcGIS Online](#upload-csv-file-to-arcgis-online)
   * [Add Layer](#add-layer)
+  * [Explore Attribute Table](#explore-attribute-table)
+  * [Apply Symbology](#apply-symbology)
   * [Save](#save)
   * [Share Web Map](#share-web-map)
   
@@ -210,9 +212,82 @@
     
     **This will show the layers that are available to be displayed on the map view.**
 
+1. Click on "Legend" to see how the layers are symbolized.  
+    <img src="snippets/32.1_click_legend.png">
+
 
 \[[top](#content)\]
 
+
+## Explore Attribute Table
+**We want to symbolize the layer with the values from the attribute table.  Let's take a look at the attribute tables.**
+
+1. Click on "Content".
+1. Hover over the `mbta rapid transit...` layer and additional button will appear.  
+    <img src="snippets/32.3_hover_over_layer.png">
+1. Click on the `Show Table` icon.  
+    <img src="snippets/32.4_show_table_icon.png" width="25">
+
+    **The Attribute Table will appear at the bottom. We want to color each subway line with its associated line color using the `LINE` column.**
+
+    <img src="snippets/32.5_mbta_transit_att_table.png">
+
+
+\[[top](#content)\]
+
+## Apply Symbology
+**Now let's apply the symbology of the subway lines using the attribute table.**
+
+1. On the left pane, make sure "Content" is selected.
+1. Hover over the `mbta rapid transit...` layer until the additional button appear.
+1. Click on the `Change Style` button:  
+    <img src="snippets/32.5_change_style_button.png" width="25">
+
+1. The left pane will go to the "Change Style" form.  For step 1, in the drop down menu select the attribute `LINE`.  
+    <img src="snippets/32.6_change_style_select_attribute_line.png">
+
+1. Step 2, we are going to symbolize by "Unique symbols".  Click on "Options" under "Types (Unique symbols)".  
+    <img src="snippets/32.7_unique_symbols_options_transit.png">
+1. The left window pane will now give you the option to change the individual colors.  Click on the colored lines to the left of the "LABEL" column to select a color that matches the LABEL.  
+    <img src="snippets/32.8_change_transit_color.png">
+1. Your selection and map should look similiar to this:  
+    <img src="snippets/32.9_selected_colors.png">
+1. Click on "OK" to save the Options settings.
+1. click on "Done" to save the symbology setup.
+
+** Let's now symbolize the `mbta subway stations` layer but we will not symbolize based on the attribute table, just change how the symbol looks.**
+
+1. Hover over the `mbta subway stations...` layer and click on "Change style" button.
+1. For step 1, in the drop down menu, select "Show location only".
+1. For step 2, click on the "OPTIONS" button under "Location (single symbol)".  
+    <img src="snippets/32.10_symb_stations_single_location.png">
+
+1. Click on the "Symbols" link to open a new window.  
+    <img src="snippets/32.11_symbols_link.png">
+1. Explore the symbology window and select a good symbol for subway station stops.
+1. Click "OK" to close the symbology selection window.
+1. Click "OK" in the left pane to save the options.
+1. Click "DONE" to save the symbology settings.
+
+
+\[[top](#content)\]
+
+## Layer Order
+**On your map it might happen that the station stops appear below the subway lines.  The order of the layers in the "Content" pane matter.  The layer listed at the top will be drawn on top of all the other layers.  Here lets move the layers around.**
+
+<img src="snippets/32.12_layer_order_sample.png">
+
+1. Hover over a layer, so that the additional menu items appear.
+1. Click on the three dots `...` button on the far right side.  
+   <img src="snippets/32.13_three_dots_button.png">
+
+1. Then click on either the "Move up" or "Move down" option.  
+   <img src="snippets/32.14_move_up_down.png">
+
+    **You should see the layer move up or down the list.  Observe the map viewing area and you should see the order of the layers being drawn change as well.**
+
+    
+\[[top](#content)\]
 
 ## Save
 **At this point it is good to save the map, so we don't lose our changes accidently.**

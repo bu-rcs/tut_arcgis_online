@@ -25,6 +25,8 @@
 1. Right click on the page and select `Save As` or `Save Page As`
 1. Save the file as `NE_DemographicsData.csv`, in an easy access location, like your desktop.
 
+    **This dataset is a subset from County Health Rankings & Roadmaps 2019 data made available by University of Wisconsin Population Health Institute.  www.countyhealthrankings.org.**
+
 \[[top](#content)\]
 
 ## Upload Data to ArcGIS Online
