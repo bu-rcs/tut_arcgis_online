@@ -8,16 +8,18 @@
   * [Download Data](#download-data)
   * [Upload Shapefile to ArcGIS Online](#upload-shapefile-to-arcgis-online)
   * [Upload CSV File to ArcGIS Online](#upload-csv-file-to-arcgis-online)
-  * [Add Layer](#add-layer)
+  * [Add Layer in Map Viewer](#add-layer-in-map-viewer)
   * [Explore Attribute Table](#explore-attribute-table)
   * [Apply Symbology](#apply-symbology)
+  * [Layer Order](#layer-order)
+  * [Add Labels](#add-labels)
   * [Save](#save)
   * [Share Web Map](#share-web-map)
   
 ## Navigation
 **Now let's learn how to use the Map Viewer.**
 
-1. Log onto ArcGIS Online portal. Remember your username has `_bucas` appended to it. (https://bucas.maps.arcgis.com/)
+1. Log onto ArcGIS Online portal. (https://bucas.maps.arcgis.com/)
 1. Top menu click on `Map`. This will load the map viewer.  
     
     <img src="snippets/18_map_page.png" width="700">
@@ -178,11 +180,14 @@
 
     <img src="snippets/5_station_desc_page.png" width="500">
 
+1. If you update the the CSV file and need to re-upload the CSV file.  Use the "Update Data" button on the right side.  
+    <img src="snippets/5.1_update_data.png">
+
 
 \[[top](#content)\]
 
 
-## Add Layer
+## Add Layer in Map Viewer
 **Nots let's add the data we uploaded.**
 
 1. Log onto ArcGIS Online portal. (https://bucas.maps.arcgis.com/)
@@ -236,6 +241,23 @@
 \[[top](#content)\]
 
 ## Apply Symbology
+
+**Let's change how the `mbta subway stations` point look.**
+
+1. Hover over the `mbta subway stations...` layer and click on "Change style" button.  
+     <img src="snippets/32.5_change_style_button.png" width="25">
+1. For step 1, in the drop down menu, select "Show location only".
+1. For step 2, click on the "OPTIONS" button under "Location (single symbol)".  
+    <img src="snippets/32.10_symb_stations_single_location.png">
+
+1. Click on the "Symbols" link to open a new window.  
+    <img src="snippets/32.11_symbols_link.png">
+1. Explore the symbology window and select a good symbol for subway station stops.
+1. Click "OK" to close the symbology selection window.
+1. Click "OK" in the left pane to save the options.
+1. Click "DONE" to save the symbology settings.
+
+
 **Now let's apply the symbology of the subway lines using the attribute table.**
 
 1. On the left pane, make sure "Content" is selected.
@@ -253,21 +275,8 @@
 1. Your selection and map should look similiar to this:  
     <img src="snippets/32.9_selected_colors.png">
 1. Click on "OK" to save the Options settings.
-1. click on "Done" to save the symbology setup.
+1. Click on "Done" to save the symbology setup.
 
-** Let's now symbolize the `mbta subway stations` layer but we will not symbolize based on the attribute table, just change how the symbol looks.**
-
-1. Hover over the `mbta subway stations...` layer and click on "Change style" button.
-1. For step 1, in the drop down menu, select "Show location only".
-1. For step 2, click on the "OPTIONS" button under "Location (single symbol)".  
-    <img src="snippets/32.10_symb_stations_single_location.png">
-
-1. Click on the "Symbols" link to open a new window.  
-    <img src="snippets/32.11_symbols_link.png">
-1. Explore the symbology window and select a good symbol for subway station stops.
-1. Click "OK" to close the symbology selection window.
-1. Click "OK" in the left pane to save the options.
-1. Click "DONE" to save the symbology settings.
 
 
 \[[top](#content)\]
@@ -285,6 +294,21 @@
    <img src="snippets/32.14_move_up_down.png">
 
     **You should see the layer move up or down the list.  Observe the map viewing area and you should see the order of the layers being drawn change as well.**
+
+\[[top](#content)\]
+
+## Add Labels
+**Let's add labels to the station stops.**
+1. Hover over the layer `mbta subway stations`, and click on the three dots button `...`.  
+    <img src="snippets/32.13_three_dots_button.png">
+1. Click on "Create Labels".  
+    <img src="snippets/32.15_create_label.png">
+1. For the field "Text", in the drop down menu, select `STATION`.  As this is the attribute we want to use from our attribute table.  
+    <img src="snippets/32.16_set_label_options.png">
+
+    **At this point look at the map viewer and you should see a label next to each station, with it's station name.**
+1. Adjust the font as desired.
+1. Click "OK"
 
     
 \[[top](#content)\]
