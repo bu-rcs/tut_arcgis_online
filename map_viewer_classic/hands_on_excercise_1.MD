@@ -93,7 +93,8 @@
 ## Download Data
 **First we need to download the data we will use.  Please download the CSV file linked below.**
 1. Click on the link below to download the tutorial zip files..
-    [tutorial_files.zip](http://rcs.bu.edu/examples/gis/tutorials/arcgis_online_portal/tutorial_files.zip)
+    [tutorial_files.zip](https://rcs.bu.edu/examples/gis/tutorials/arcgis_online_portal/tutorial_files.zip)  
+    https://rcs.bu.edu/examples/gis/tutorials/arcgis_online_portal/tutorial_files.zip
 1. Unzip the zip files.
 
     **The zip file contains a directory called `mbta_rapid_transit` with a collection of files that represent a shapefile.  Additionally the zip file contains a CSV files called `mbta_subway_stations.csv`, which containts coordiante locations of MBTA subway stops and associated attributes.**
